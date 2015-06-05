@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Contact Us About Home</title>
+<link href="styles/site.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<main>
+	<header class="box" id="headerBox">
+		<img id="headerImage" alt="The Car Company" height="196" src="images/head-banner.png" width="920">
+	</header>
+	<nav class="box" id="navBox">
+		<span id="searchButton" class="navBarItem box" onclick="window.location='vehiclebrowser.html'">Search</span>
+		<span id="contactusButton" class="navBarItem box" style="background-color: #FFAE35;" onclick="window.location='contact.html'">Contact Us</span>
+		<span id="aboutButton" class="navBarItem box" onclick="window.location='about.html'">About</span>
+		<span id="homeButton" class="navBarItem box" onclick="window.location='home.html'">Home</span>
+	</nav>
+	<section class="box" id="sectionBox">
+		<span class="box" id="boxContacUsInside">
+			<form method="post" id="contacUsForm">
+				<label id="contactUsTittle">Contact Us</label>
+				<img id="aboutUsImage" alt="The Crew" src="images/contactUs.png"><br/>
+				<div>
+					<label for="firstName" class="contactFormLabel">First Name: </label>
+					<input class="contactFormField" id="firstName" name="firstName" type="text"><br/><br/>
+					<label for="lastName" class="contactFormLabel">Last Name: </label>
+					<input class="contactFormField" id="lastName" name="lastName" type="text"><br/><br/>
+					<label for="email" class="contactFormLabel">Email: </label>
+					<input class="contactFormField" id="email" name="email" type="email"><br/><br/>
+					<label for="phone" class="contactFormLabel">Phone Number: </label>
+					<input class="contactFormField" id="phone" name="phone" type="tel"><br/><br/>
+					<label for="notes" class="contactFormLabel">Notes: </label>
+					<textarea class="contactFormField" id="notes" name="notes" cols="40" rows="4"></textarea>
+				</div><br/>
+				<div>
+					<input type="submit" value="Submit">&emsp;
+					<input type="reset" value="Reset">				
+				</div>
+			</form>
+		</span>
+	</section>
+	<footer class="box" id="footerBox">
+	</footer>
+</main>
+</body>
+</html>

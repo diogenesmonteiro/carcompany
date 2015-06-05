@@ -1,0 +1,152 @@
+﻿.box {
+	width: 920px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+	border-radius: 12px;
+	vertical-align: middle;
+	margin-bottom: 3px;
+	box-shadow: 0px 0px 12px 0px inset;
+}
+#headerImage {
+	height: 186px;
+	width: 910px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+}
+main {
+	width: 920px;
+	margin: 0 auto;
+}
+#navBox {
+	height: 25px;
+	width: 920px;
+	background-color: #0066CC;
+}
+.navBarItem {
+	display: inline-block;
+	height: 18px;
+	width: 100px;
+	text-align: center;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	float: right;
+	margin: 3px 3px 3px 0px;
+}
+.navBarItem:hover {
+	background-color: #FFAE35;
+	cursor: pointer;
+}
+#sectionBox {
+	display: block;
+	height: 575px;
+	width: 920px;
+	text-align: center;
+	background-color: #FDECB0;
+}
+#searchBoxTitle {
+	display: block;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;	
+}
+#carSearch {
+	display: block;
+	float: left;
+	height: 250px;
+	width: 180px;
+	background-color: #FF9900;
+	margin: 20px 3px 3px 20px;
+	padding: 10px;
+	text-align: center;
+}
+#carKeys {
+	display: inline-block;
+	float: none;
+	height: 340px;
+	width: 618px;
+	margin: 20px 20px 20px 20px;
+	padding: 10px;
+}
+#message {
+	display: block;
+	float: right;
+	text-align: center;
+	height: 200px;
+	width: 900px;
+	font-style: italic;
+	font-weight: bold;
+	color: blue;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+}
+form {
+	display: block;
+	float: left;
+	height: 210px;
+	width: 170px;
+	margin: 3px 3px 3px 3px;
+	padding: 3px;
+}
+.selectBoxLabel {
+	display: inline-block;
+	float: left;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.selectBox {
+	display: inline-block;
+	width: 130px;
+	float: right;
+	text-align: left;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#boxAboutUsInside, #boxContacUsInside, #contacUsForm {
+	display: block;
+	width: 875px;
+	height: 530px;
+	text-align: center;
+	margin: 20px 0px 0px 20px;
+}
+#aboutUsTitle, #contactUsTittle {
+	display: block;
+	font-style: normal;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	margin: 10px;
+}
+#aboutUsImage {	
+	display: inline-block;
+	height: 152px;
+	width: 330px;
+}
+p, li {
+	display: block;
+	text-align: left;
+	padding:0px 0px 0px 50px;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.contactFormLabel {
+	width: 150px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+.contactFormField {
+	width: 200px;
+}
+#footerBox {
+	display: block;
+	height: 25px;
+	width: 920px;
+	background-color: #0066CC;
+}
